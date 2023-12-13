@@ -5,8 +5,16 @@
 
 .header {
 
+  position: fixed;
+  top:0;
   height: 8em;
   width: 105em;
+  background-color: black;
+  color: black;
+}
+
+footer{
+ 
   background-color: black;
   color: black;
 }
