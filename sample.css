@@ -1,0 +1,49 @@
+.sm
+{
+    position: absolute;
+    top: 30%;
+    left:30%;
+}
+.uname
+{
+    position: absolute;
+    top: 33.55%;
+    left: 47%;
+}
+
+.animate {
+    animation: load 5s normal forwards;
+}
+.progress {
+    background: rgba(255, 255, 255, 0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: absolute;
+    padding: 0 5px;
+    display: flex;
+    height: 10px;
+    width: 400px;
+    top: 53%;
+    left: 33%;
+}
+
+.progress-value {
+    position: absolute;
+    /* box-shadow: 0 10px 40px -10px #000000; */
+    border-radius: 100px;
+    background: #000000;
+    height: 10px;
+    width: 0;
+}
+
+@keyframes load {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+  

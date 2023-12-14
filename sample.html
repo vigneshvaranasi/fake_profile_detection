@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+    <title>SIH</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha384-4o5+7o4gY2USMIeVA+YJVR5D1qwqTbp5mBCIwqfAR5Mhcw8fBGlmoGz2P95K6aY7" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="sample.css">
+</head>
+
+<body>
+    <div class="sm">
+        <label class="text-gray-700" for="social media">
+            Select Media
+            <select id="social media"
+                class="block px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm w-52 focus:outline-none focus:ring-primary-500 focus:border-primary-500"
+                name="social media">
+                <option value="">
+                    Select an option
+                </option>
+                <option value="Instagram">
+                    Instagram
+                </option>
+                <option value="Twitter">
+                    Twitter
+                </option>
+            </select>
+        </label>
+    </div>
+
+    <div class="uname">
+        <form id="searchForm"
+            class="flex flex-col justify-center w-3/4 max-w-sm space-y-3 md:flex-row md:w-full md:space-x-3 md:space-y-0">
+            <div class=" relative ">
+                <input type="text" id="form-subscribe-Subscribe"
+                    class="rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-gray-600 focus:border-transparent"
+                    placeholder="Username" />
+            </div>
+            <button id="searchButton"
+                class="flex-shrink-0 px-4 py-2 text-base font-semibold text-white bg-gray-600 rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 focus:ring-offset-gray-200"
+                type="button" disabled>
+                Search
+            </button>
+        </form>
+    </div>
+
+    <div class="progress">
+        <div class="progress-value"></div>
+    </div>
+
+
+    <script src="sample.js"></script>
+</body>
+
+</html>
