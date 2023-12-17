@@ -4,49 +4,116 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
   <title>SIH</title>
   <link rel="stylesheet" href="style.css">
+
+
+  <link rel="stylesheet" href="sample.css">
 
 
 </head>
 
 <body>
-
   <section class="header">
-    <img href="https://iic.iitbhilai.ac.in/images/SIH2.png" alt="SIH logo">
-
+    <img class="logo" src="https://iic.iitbhilai.ac.in/images/SIH2.png" alt="SIH logo">
     <div id="Team_name">
-      <h1> Fake Social Media Profile detection and reporting</h1>
+      <h1> Fake Social Media Profile Detection and Reporting</h1>
     </div>
-    <div id="Team_details">
-      <pre>Team ID:1234</pre>
-      <pre>SIH  ID:1234</pre>
-    </div>
+
+   
   </section>
-  
-  <nav>
-    <menu>
-      <menuitem id="demo1">
-      <a>Select Media</a>
-      <menu>
-        <menuitem><a>Insta</a></menuitem>
-        <menuitem><a>about</a></menuitem>
-      </menu>
-    </menuitem>
-  </nav>
-  
-  
+  <section  class="name">
+  <div id ="collage_name">
+    <h1>PVPSIT</h1>
+  </div>
+  <div id="team_details">
+    <h1>Team ID:1234</h1>
+    <h2>SIH ID:1234</h2>
+    </section>
+  </div>
+  <div class="sm">
+    <label class="text-gray-700" for="social media">
+      
+      <select id="social media"
+        class="block px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm w-52 focus:outline-none focus:ring-primary-500 focus:border-primary-500"
+        name="social media">
+        <option value="">
+          Select Media
+        </option>
+        <option value="Instagram">
+          Instagram
+        </option>
+        <option value="Twitter">
+          Twitter
+        </option>
+      </select>
+    </label>
+  </div>
+
+  <div class="uname">
+    <form id="searchForm"
+      class="flex flex-col justify-center w-3/4 max-w-sm space-y-3 md:flex-row md:w-full md:space-x-3 md:space-y-0">
+      <div class=" relative ">
+        <input type="text" id="form-subscribe-Subscribe"
+          class="rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-gray-600 focus:border-transparent"
+          placeholder="Username" />
+      </div>
+      <button id="searchButton"
+        class="flex-shrink-0 px-4 py-2 text-base font-semibold text-white bg-black rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 focus:ring-offset-gray-200"
+        type="button" disabled>
+        Search
+      </button>
+    </form>
+  </div>
+
   <div class="progress">
     <div class="progress-value"></div>
   </div>
-  <footer >
-       <h3>Team Leader: sample</h3>
-       <h3>Team member: sample</h3>
-       <h3>Team member: sample</h3>
-       <h3>Team member: sample</h3>
+  <!--   <iframe class="profile-embed" src="https://www.youtube.com/embed/Kcea7QI2BHs?si=aBroRWSr1Iz9t6ai"
+    title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe> -->
+  <div class="profile-embed">
+    <div class="iframely-responsive" style="height: 140px; padding-bottom: 0; width: 350px;">
+      <a id="instagramIframe" data-iframely-url="//iframely.net/QlyVUJq"></a>
+    </div>
+  </div>
 
-       
-  </footer>
+
+
+
+  <!---->
+
+
+
+
+  <link href='https://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
+  <div class="gauge">
+    <ul class="meter">
+      <li class="low"></li>
+      <li class="normal"></li>
+      <li class="high"></li>
+    </ul>
+
+    <div class="dial">
+      <div class="inner">
+        <div class="arrow">
+        </div>
+      </div>
+    </div>
+
+    <div class="value">
+      0%
+    </div>
+
+  </div>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
+
+
+
+  <script src="script.js"></script>
 
 </body>
 
