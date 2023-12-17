@@ -1,3 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+  
+    height: 8em;
+    width: 80em;
+    background-color: black;
+    color: rgb(255, 255, 255);
+  }
+  .logo
+  {
+    position: relative;
+    height: 8em;
+    width: 8em;
+  }
+  
+  #Team_name {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: -3em;
+    margin-left: auto;
+    text-align: center;  
+  }
+  
+  .team_details{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    position: absolute;
+    display: flex;
+    font-size: 25px;
+    font-weight: 100;
+    left: 10px;
+    flex-shrink: 0;   
+  }
+  
 .sm
 {
     position: absolute;
